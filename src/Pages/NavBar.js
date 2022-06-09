@@ -27,11 +27,11 @@ const NavBar = () => {
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
                     {menu}
-                    <a href={resume} className="btn" download>Download Resume</a>
+                    <a href={resume} className="btn" download>Resume</a>
                 </ul>
             </div>
             <div className='navbar-end visible lg:hidden'>
-                <a href={resume} className="btn" download>Download Resume</a>
+                <a href={resume} className="btn" download>Resume</a>
             </div>
         </div>
     );
