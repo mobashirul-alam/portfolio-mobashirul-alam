@@ -1,12 +1,15 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Banner from './Pages/Banner';
+import Home from './Pages/Home/Home';
 import NavBar from './Pages/NavBar';
 
 function App() {
   return (
     <div className='px-3 md:px-12'>
       <NavBar></NavBar>
-      <Banner></Banner>
+      <Routes>
+        <Route path='/' element={<Home></Home>}></Route>
+      </Routes>
     </div>
   );
 }
