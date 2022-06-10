@@ -44,11 +44,11 @@ const ContactMe = () => {
                         />
                         <textarea
                             name='user_message'
-                            class="textarea textarea-bordered w-full max-w-sm mb-2"
+                            class="textarea textarea-bordered w-full max-w-sm"
                             placeholder="Message..."
                         ></textarea>
                         <br />
-                        <input type="submit" value="Submit" className='btn btn-wide' />
+                        <input type="submit" value="Submit" className='btn btn-block max-w-sm' />
                     </form>
                 </div>
                 <div class="flex-1 lg:ml-48">
@@ -67,11 +67,21 @@ const ContactMe = () => {
                         </p>
                         <p className='md:mb-5'>
                             <img src={github} alt="" className='inline mr-6' />
-                            Github/mobashirul
+                            <a
+                                href="https://github.com/mobashirul-alam"
+                                target='_blank'
+                                rel="noreferrer">
+                                Github/mobashirul
+                            </a>
                         </p>
                         <p className='md:mb-5'>
                             <img src={linkedin} alt="" className='inline mr-6' />
-                            LinkedIn/mobashirul
+                            <a
+                                href="https://www.linkedin.com/in/mobashirul-alam-seam/"
+                                target='_blank'
+                                rel="noreferrer">
+                                LinkedIn/mobashirul
+                            </a>
                         </p>
                     </div>
                 </div>

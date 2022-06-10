@@ -5,7 +5,7 @@ import resume from '../../assets/Mobashirul-Alam-Seam-Resume.pdf';
 const Banner = () => {
     return (
         <div class="hero min-h-[90vh]">
-            <div class="hero-content flex-col items-center lg:flex-row-reverse lg:justify-around w-full">
+            <div class="hero-content flex-col items-center lg:flex-row-reverse lg:justify-around w-full px-0">
                 <img src={manWithLaptop} class="max-w-sm md:max-w-lg" alt='' />
                 <div>
                     <h3 className='mb-2 ml-1'>Hi there, I'm</h3>
