@@ -6,7 +6,7 @@ const Banner = () => {
     return (
         <div class="hero min-h-[90vh]">
             <div class="hero-content flex-col items-center lg:flex-row-reverse lg:justify-around w-full px-0">
-                <img src={manWithLaptop} class="max-w-sm md:max-w-lg" alt='' />
+                <img src={manWithLaptop} class="max-w-sm md:max-w-md" alt='' />
                 <div>
                     <h3 className='mb-2 ml-1'>Hi there, I'm</h3>
                     <h1 class="text-5xl md:text-7xl font-bold">MOBASHIRUL <br /> ALAM SEAM</h1>

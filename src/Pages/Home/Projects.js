@@ -13,12 +13,12 @@ const Projects = () => {
             <div>
                 {/* -------------- Project 1 ------------- */}
                 <div class="card lg:card-side bg-base-100 shadow-2xl rounded-none my-16">
-                    <img className='w-3/5 border-2 border-red-900' src={goldenTool} alt="Project" />
+                    <img className='max-w-screen-md lg:max-w-screen-sm border-2 border-red-900' src={goldenTool} alt="Project" />
                     <div class="card-body my-8">
                         <p>Full Stack Project</p>
                         <p className='card-title underline'>Golden Weight Tools</p>
                         <p>A Full Stack Tools Manufacturer Website with Fully Secured Authentication System & Secured Payment System.</p>
-                        <div className='flex gap-3'>
+                        <div className='flex flex-wrap gap-1 md:gap-3'>
                             <button className='border-2 border-gray-300 p-2'>React</button>
                             <button className='border-2 border-gray-300 p-2'>Tailwind CSS</button>
                             <button className='border-2 border-gray-300 p-2'>MongoDB</button>
@@ -37,12 +37,13 @@ const Projects = () => {
                     </div>
                 </div>
                 {/* -------------- Project 2 ------------- */}
-                <div class="card lg:card-side bg-base-100 shadow-2xl rounded-none mb-16">
+                <div class="flex flex-col lg:flex-row-reverse card lg:card-side bg-base-100 shadow-2xl rounded-none mb-16">
+                    <img className='max-w-screen-md lg:max-w-screen-sm border-2 border-red-900' src={fitnessPro} alt="Project" />
                     <div class="card-body my-8">
                         <p>Full Stack Project</p>
                         <p className='card-title underline'>Fitness Pro Equipment Warehouse</p>
                         <p>A Full Stack Warehouse Management Website with Fully Secured Authentication System.</p>
-                        <div className='flex gap-3'>
+                        <div className='flex flex-wrap gap-1 md:gap-3'>
                             <button className='border-2 border-gray-300 p-2'>React</button>
                             <button className='border-2 border-gray-300 p-2'>React Bootstrap</button>
                             <button className='border-2 border-gray-300 p-2'>MongoDB</button>
@@ -59,16 +60,15 @@ const Projects = () => {
                             <button class="btn btn-accent text-white">Project Details</button>
                         </div>
                     </div>
-                    <img className='w-3/5 border-2 border-red-900' src={fitnessPro} alt="Project" />
                 </div>
                 {/* -------------- Project 3 ------------- */}
                 <div class="card lg:card-side bg-base-100 shadow-2xl rounded-none mb-16">
-                    <img className='w-3/5 border-2 border-red-900' src={proFit} alt="Project" />
+                    <img className='max-w-screen-md lg:max-w-screen-sm border-2 border-red-900' src={proFit} alt="Project" />
                     <div class="card-body my-8">
                         <p>Front End Project</p>
                         <p className='card-title underline'>Pro-Fit Personal Trainer</p>
                         <p>A Front End Independent Service Provider Website for a Personal Fitness Trainer.</p>
-                        <div className='flex gap-3'>
+                        <div className='flex flex-wrap gap-1 md:gap-3'>
                             <button className='border-2 border-gray-300 p-2'>React</button>
                             <button className='border-2 border-gray-300 p-2'>Bootstrap</button>
                             <button className='border-2 border-gray-300 p-1'>React Bootstrap</button>
