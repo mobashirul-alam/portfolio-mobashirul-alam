@@ -6,6 +6,7 @@ const NavBar = () => {
 
     const menu = <>
         <li><Link to={'/'}>About</Link></li>
+        <li><Link to={'/blogs'}>Blogs</Link></li>
         <li><a href="#services">Services</a></li>
         <li><Link to={'/'}>Projects</Link></li>
         <li><a href="#contactMe">Contact Me</a></li>
