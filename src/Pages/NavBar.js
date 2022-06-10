@@ -5,7 +5,7 @@ import resume from '../assets/Mobashirul-Alam-Seam-Resume.pdf';
 const NavBar = () => {
 
     const menu = <>
-        <li><Link to={'/'}>About</Link></li>
+        <li><a href='#about'>About</a></li>
         <li><Link to={'/blogs'}>Blogs</Link></li>
         <li><a href="#services">Services</a></li>
         <li><Link to={'/'}>Projects</Link></li>
