@@ -1,10 +1,25 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import email from '../../assets/icon/Mail-icon.png'
 import phone from '../../assets/icon/Phone-icon.png'
 import github from '../../assets/icon/web-github-icon.png'
 import linkedin from '../../assets/icon/linkedin-icon.png'
+import emailjs from '@emailjs/browser';
 
 const ContactMe = () => {
+    const form = useRef();
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        emailjs.sendForm('service_oop3qpn', 'template_rldi6tc', form.current, 'bzd5LhQfWsX0DWGLK')
+            .then((result) => {
+                console.log(result.text);
+                if (result.text === 'OK') {
+                    e.target.reset();
+                }
+            }, (error) => {
+                console.log(error.text);
+            });
+    }
     return (
         <div className='min-h-[90vh]'>
             <div class="divider text-4xl md:text-6xl lg:w-1/2 mx-auto my-12">Contact Me</div>
@@ -14,10 +29,24 @@ const ContactMe = () => {
                     <p className='text-xl font-normal md:w-2/3 mx-auto'>
                         Got a question or proposal, or just want to say hello? Go Ahead
                     </p>
-                    <form className='mt-12'>
-                        <input type="text" placeholder="Your Name" class="input input-bordered w-full max-w-sm mb-2" />
-                        <input type="text" placeholder="Your Email Address" class="input input-bordered w-full max-w-sm mb-2" />
-                        <textarea class="textarea textarea-bordered w-full max-w-sm mb-2" placeholder="Message..."></textarea>
+                    <form ref={form} className='mt-12 form-control' onSubmit={handleSubmit}>
+                        <input
+                            name='user_name'
+                            type="text"
+                            placeholder="Your Name"
+                            class="input input-bordered w-full max-w-sm mb-2"
+                        />
+                        <input
+                            name='user_email'
+                            type="email"
+                            placeholder="Your Email Address"
+                            class="input input-bordered w-full max-w-sm mb-2"
+                        />
+                        <textarea
+                            name='user_message'
+                            class="textarea textarea-bordered w-full max-w-sm mb-2"
+                            placeholder="Message..."
+                        ></textarea>
                         <br />
                         <input type="submit" value="Submit" className='btn btn-wide' />
                     </form>
