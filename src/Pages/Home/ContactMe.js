@@ -21,7 +21,7 @@ const ContactMe = () => {
             });
     }
     return (
-        <div className='min-h-[90vh]'>
+        <div id='contactMe' className='min-h-[85vh] mt-12'>
             <div class="divider text-4xl md:text-6xl lg:w-1/2 mx-auto my-12">Contact Me</div>
             <div class="flex flex-col w-full lg:flex-row ">
                 <div class="flex-1 text-center lg:ml-20 mb-12 lg:mb-0">
