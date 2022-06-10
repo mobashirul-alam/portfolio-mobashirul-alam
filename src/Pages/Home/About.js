@@ -3,7 +3,7 @@ import Typewriter from 'typewriter-effect';
 
 const About = () => {
     return (
-        <div>
+        <div className='min-h-screen'>
             <div id='about' className='w-1/2 mx-auto my-12'>
                 <h1 className='text-6xl font-medium'>
                     <Typewriter
