@@ -1,0 +1,124 @@
+[
+    {
+        "id": 111,
+        "name": "Golden Weight Tools",
+        "img1": "https://i.ibb.co/JrZ3NMQ/golden-weight-1.png",
+        "img2": "https://i.ibb.co/cYb8SkL/golden-weight-2.png",
+        "img3": "https://i.ibb.co/NSN1gck/golden-weight-3.png",
+        "githubClient": "https://github.com/mobashirul-alam/manufacturer-website-client-side-mobashirul-alam-p",
+        "githubServer": "https://github.com/mobashirul-alam/manufacturer-website-server-side-mobashirul-alam-p",
+        "liveSite": "https://golden-weight-tools.web.app/",
+        "aboutProject": [
+            "Website for a tools manufacturer company",
+            "On the home page, there is a Header (simple navbar), Banner, Tools section, Business Summary, Customer Reviews, Payment System info, Contact info, and Footer",
+            "Each product has a purchase button. When a user clicks on the purchase button it will take the user to the purchase page if the user is logged in, else the user will be redirected to the login page. Here the user can place his order. On the dashboard page, the user can manage his orders",
+            "For admin, there are different features in the dashboard."
+        ],
+        "specialFeatures": [
+            "Any type of stored products can be managed through this website",
+            "Users can purchase their desired products. For this, they have to click the Purchase button on the home page in the tools section. Clicking this button they will be taken to the purchase page. Providing enough info they can place their order",
+            "On the dashboard page they can see their order info, can pay for their order, and cancel unpaid orders.",
+            "For admin, there will be different functionalities.",
+            "Admin can add a new product, manage all products, and manage all orders.",
+            "Admin can make another user an admin.",
+            "Both admin and normal user can update their personal profile.",
+            "Completely functional authentication system implemented on this website.",
+            "Stripe payment system integrated."
+        ],
+        "usedTech": [
+            "React",
+            "React Router",
+            "React hook form",
+            "React firebase hooks",
+            "React Query",
+            "Tailwind CSS",
+            "daisyUI",
+            "Stripe.js",
+            "React-toastify",
+            "Express.js",
+            "Node.js",
+            "MongoDB"
+        ],
+        "usedLanguage": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": 222,
+        "name": "Fitness Pro Equipment Warehouse",
+        "img1": "https://i.ibb.co/yVwSwP1/fitness-pro-1.png",
+        "img2": "https://i.ibb.co/bsKCgyF/fitness-pro-2.png",
+        "img3": "https://i.ibb.co/sFRgs8G/fitness-pro-3.png",
+        "githubClient": "https://github.com/mobashirul-alam/warehouse-management-client-side-mobashirul-alam-p",
+        "githubServer": "https://github.com/mobashirul-alam/warehouse-management-server-side-mobashirul-alam-p",
+        "liveSite": "https://fitness-pro-equipment-house.web.app/",
+        "aboutProject": [
+            "Fitness Pro Equipment Warehouse is a "Warehouse Management Project".",
+            "Home page is designed with a Responsive Navigation bar, a banner with a carousel, contact section, FAQS section, and a footer.",
+            "Product inventory section is also on the home page. At the bottom of the inventory section, there is a Manage Inventory link. Clicking the link will be redirected to the Manage Items page. Where all stock products are displayed.",
+            "Without Login you can't get any access to managing products or adding new products."
+        ],
+        "specialFeatures": [
+            "Any kind of product warehouse can be managed through it.",
+            "You can add new product with its detailed info.",
+            "You can manage the quantity of your product later.",
+            "Completely connected to the database.",
+            "When you add a product, details of this product are saved in the database..",
+            "User can find his product on the My Items page.",
+            "User can manage his product from the Manage Items page and also from the My Items page.",
+            "User can manage, add or edit his product information if he is logged in.",
+            "Completely functional authentication system implemented."
+        ],
+        "usedTech": [
+            "React",
+            "React Router",
+            "React hook form",
+            "React firebase hooks",
+            "Bootstrap",
+            "React Bootstrap",
+            "React-toastify",
+            "Express.js",
+            "Node.js",
+            "MongoDB"
+        ],
+        "usedLanguage": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": 333,
+        "name": "Pro-Fit Personal Trainer",
+        "img1": "https://i.ibb.co/bKpKnLq/pro-fit-1.png",
+        "img2": "https://i.ibb.co/VCqRQyr/pro-fit-2.png",
+        "img3": "https://i.ibb.co/Wyh1g1B/pro-fit-3.png",
+        "githubClient": "https://github.com/mobashirul-alam/independent-service-provider-mobashirul-alam-p",
+        "githubServer": "",
+        "liveSite": "https://pro-fit-personal-trainer.web.app/",
+        "aboutProject": [],
+        "specialFeatures": [
+            "This site is for a Personal Fitness Trainer.",
+            "On the home page, there's a banner and the logo is displayed.",
+            "All the services are included on the home page.",
+            "User can book his needed service.",
+            "To book service user has to log in first.",
+            "Some Conceptual Questions are answered on the blog's page."
+        ],
+        "usedTech": [
+            "React",
+            "React Router",
+            "React firebase hooks",
+            "Bootstrap",
+            "React Bootstrap",
+            "React-toastify"
+        ],
+        "usedLanguage": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    }
+]
